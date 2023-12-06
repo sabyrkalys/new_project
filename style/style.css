@@ -1,7 +1,3 @@
-.about {
-  margin: 0;
-  padding: 0;
-}
 @font-face {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -146,17 +142,6 @@ nav .nav-list {
   border: 2px solid var(--main-color);
   border-radius: 17px;
   padding: 15px 20px;
-}
-.btn::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "Мой элемент!";
-  display: block;
-  width: 20rem;
-  height: 10rem;
-  color: red;
-  background-color: var(--main-color);
 }
 .block-img {
   margin-top: 5rem;
